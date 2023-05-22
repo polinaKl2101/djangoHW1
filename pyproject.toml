@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-les1"
+version = "0.1.0"
+description = ""
+authors = ["polinaKl2101 <pklopunova@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_les1"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
